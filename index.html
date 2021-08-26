@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quadratic Equation Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quadratic Equation Calculator</h1>
+      <!--
+      <div>
+        <label>What is the variable you are trying to find?</label>
+        <input type="text" id="text" />
+      </div>
+      <div>
+        <label>What is the coefficient of the square of the variable?</label>
+        <input type="number" />
+      </div>
+      <div>
+        <label>What is the coefficient of the variable?</label
+        ><input type="number" />
+      </div>
+      <div><label> What is the constant?</label><input type="number" /></div>
+    -->
+      <table>
+          <th>
+              <tr>
+                  <td id="header" colspan="2">Please fill in the neccessary details...</td>
+              </tr>
+          </th>
+        <tr>
+          <td><label>What is the variable you are trying to find?</label></td>
+          <td><input type="text" id="text"  maxlength="1"/></td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              >What is the coefficient of the square of the variable?</label
+            >
+          </td>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <td><label>What is the coefficient of the variable?</label></td>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <td><label> What is the constant?</label></td>
+          <td><input type="number" /></td>
+        </tr>
+      </table>
+      <button type="submit" id="submit">Calculate</button>
+      <p id="result"></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
