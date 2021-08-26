@@ -10,48 +10,24 @@
   <body>
     <div class="container">
       <h1>Quadratic Equation Calculator</h1>
-      <!--
-      <div>
+     <div class="inputs">
+        <div>
         <label>What is the variable you are trying to find?</label>
-        <input type="text" id="text" />
+        <input type="text" id="text" maxlength="1"/>
       </div>
       <div>
         <label>What is the coefficient of the square of the variable?</label>
         <input type="number" />
       </div>
       <div>
-        <label>What is the coefficient of the variable?</label
-        ><input type="number" />
+        <label>What is the coefficient of the variable?</label>
+        <input type="number" />
       </div>
-      <div><label> What is the constant?</label><input type="number" /></div>
-    -->
-      <table>
-          <th>
-              <tr>
-                  <td id="header" colspan="2">Please fill in the neccessary details...</td>
-              </tr>
-          </th>
-        <tr>
-          <td><label>What is the variable you are trying to find?</label></td>
-          <td><input type="text" id="text"  maxlength="1"/></td>
-        </tr>
-        <tr>
-          <td>
-            <label
-              >What is the coefficient of the square of the variable?</label
-            >
-          </td>
-          <td><input type="number" /></td>
-        </tr>
-        <tr>
-          <td><label>What is the coefficient of the variable?</label></td>
-          <td><input type="number" /></td>
-        </tr>
-        <tr>
-          <td><label> What is the constant?</label></td>
-          <td><input type="number" /></td>
-        </tr>
-      </table>
+      <div>
+        <label> What is the constant?</label>
+        <input type="number" />
+      </div>
+     </div>
       <button type="submit" id="submit">Calculate</button>
       <p id="result"></p>
     </div>
